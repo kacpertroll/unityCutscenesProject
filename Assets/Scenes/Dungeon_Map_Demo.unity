@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: ce247eb48bdf4a847809c31c12c661e3, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 30aaf8b014af8154a9648c3c1fabaf45, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 2eceb279d4f0dc345865381edd339f19, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -14977,6 +14977,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4540841265660142, guid: edfbd7a09267bf6459f2be0132f2066c, type: 3}
   m_PrefabInstance: {fileID: 102962409}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &103701411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103701412}
+  m_Layer: 0
+  m_Name: Cameras - 2nd Timelike
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103701412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103701411}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -194.30057, y: -0, z: -127.58794}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 527222167}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &104311042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72436,7 +72468,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 50
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -72462,8 +72494,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520483699}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.06670533, y: -0.363444, z: -0.026100028, w: 0.9288583}
-  m_LocalPosition: {x: 26.368242, y: 1.6455836, z: -67.47237}
+  m_LocalRotation: {x: -0.034811784, y: 0.90809053, z: -0.07666637, w: -0.41022205}
+  m_LocalPosition: {x: -8.422821, y: 6.4150686, z: -46.10672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73353,6 +73385,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 440600, guid: 5edd33cac2cc483409fd8b1477e9593b, type: 3}
   m_PrefabInstance: {fileID: 527090303}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &527222166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 527222167}
+  - component: {fileID: 527222168}
+  m_Layer: 0
+  m_Name: CUTSCENE_PrisonHero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &527222167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527222166}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.034811784, y: 0.90809053, z: -0.07666637, w: -0.41022205}
+  m_LocalPosition: {x: 185.87775, y: 6.4150553, z: 81.48121}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 103701412}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &527222168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527222166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 0}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 40
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
 --- !u!1001 &527491631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83990,12 +84097,12 @@ GameObject:
   m_Component:
   - component: {fileID: 604668803}
   m_Layer: 0
-  m_Name: Cameras
+  m_Name: Cameras - 1 Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &604668803
 Transform:
   m_ObjectHideFlags: 0
@@ -115153,8 +115260,11 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -2234206753991192272, guid: 08491b9c7f9a2584294d1b73f08b3477, type: 2}
     value: {fileID: 91010044}
+  - key: {fileID: -2635778242614921807, guid: 08491b9c7f9a2584294d1b73f08b3477, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 7cc75af7f0357ae42984d14286f9d7b5: {fileID: 527222168}
 --- !u!1001 &850583413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -192945,7 +193055,7 @@ Transform:
   m_GameObject: {fileID: 1445214386}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -10.886, y: 8.26, z: -47.314}
+  m_LocalPosition: {x: -10.886, y: 7.943, z: -47.314}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -197205,7 +197315,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 7b8dbd013ca1b2243b46c08e9fe6d647, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -286609,3 +286719,4 @@ SceneRoots:
   - {fileID: 1372240676}
   - {fileID: 91010043}
   - {fileID: 850369290}
+  - {fileID: 103701412}
