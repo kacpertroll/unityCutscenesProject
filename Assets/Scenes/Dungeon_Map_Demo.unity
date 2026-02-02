@@ -15013,6 +15013,7 @@ Transform:
   - {fileID: 900971561}
   - {fileID: 401404964}
   - {fileID: 670454453}
+  - {fileID: 831032018}
   - {fileID: 800643738}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -113007,6 +113008,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 830998422}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &831032017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 831032018}
+  - component: {fileID: 831032019}
+  m_Layer: 0
+  m_Name: CUTSCENE_PrisonHero5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &831032018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831032017}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.050088435, y: -0.79326785, z: -0.066936, w: 0.6031061}
+  m_LocalPosition: {x: 188.81206, y: 5.160015, z: 79.98725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 103701412}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &831032019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831032017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 0}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 40
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
 --- !u!1001 &831135654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116054,6 +116130,7 @@ PlayableDirector:
     m_References:
     - d9d52684f73060843a8a4d6e5ff19a97: {fileID: 1260244093}
     - 3fbdafc9a1950924ab335123f5f8b494: {fileID: 192057220}
+    - a391876e375cb504dbf1a94b07054997: {fileID: 831032019}
     - 43f9779397a92064c8c9c1778bf31336: {fileID: 1442983482}
     - 8fcd7ec33f3ac164ba404d2a0fdbaa73: {fileID: 1442983482}
     - 511b62a2001c5364aa5f76f20c9b5c60: {fileID: 670454454}
