@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 0f1f91c387c458a4588e50c89cdee480
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 330509
+  packageName: Footsteps - Pack
+  packageVersion: 2.0
+  assetPath: Assets/Footsteps Pack Expanded/SingleSteps/WaterSteps/WaterSteps245.wav
+  uploadId: 853480
